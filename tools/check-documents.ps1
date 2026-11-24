@@ -42,6 +42,20 @@ foreach ($number in 1..18) {
         if (-not (Test-Path -LiteralPath (Join-Path $matches[0].FullName $requiredFile))) { $problems.Add("Missing $requiredFile in $($matches[0].Name)") }
     }
 }
-$summary = [ordered]@{ markdown_files=$documents.Count; local_links=$checkedLinks; logic_definitions=$logicDocuments.Count; case_tag_directories=$tagDirectories.Count; gestalt_entries=$rules.Count; project_stages=$stages.Count; errors=$problems.Count; details=@($problems.ToArray()) }
+$isotypeRoot = Join-Path $rootPath '03-ISOTYPE信息图'
+$isotypeDirectories = @()
+if (-not (Test-Path -LiteralPath $isotypeRoot)) {
+    $problems.Add('03 ISOTYPE topic directory is missing.')
+} else {
+    $isotypeDirectories = @(Get-ChildItem -LiteralPath $isotypeRoot -Directory)
+    if ($isotypeDirectories.Count -ne 4) { $problems.Add('03 must contain exactly four topic subdirectories.') }
+    foreach ($topicName in @('01-历史与文献','02-图符语言与视觉编码','03-案例研究','04-设计实践')) {
+        if (-not (Test-Path -LiteralPath (Join-Path $isotypeRoot ($topicName + '/README.md')))) { $problems.Add("Missing ISOTYPE topic: $topicName") }
+    }
+    foreach ($rootDocument in @('README.md','00-ISOTYPE概念与方法.md')) {
+        if (-not (Test-Path -LiteralPath (Join-Path $isotypeRoot $rootDocument))) { $problems.Add("Missing ISOTYPE root document: $rootDocument") }
+    }
+}
+$summary = [ordered]@{ markdown_files=$documents.Count; local_links=$checkedLinks; logic_definitions=$logicDocuments.Count; case_tag_directories=$tagDirectories.Count; isotype_subdirectories=$isotypeDirectories.Count; gestalt_entries=$rules.Count; project_stages=$stages.Count; errors=$problems.Count; details=@($problems.ToArray()) }
 $summary | ConvertTo-Json -Depth 4
 if ($problems.Count -gt 0) { exit 1 }

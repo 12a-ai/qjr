@@ -1,4 +1,4 @@
-# ISOTYPE｜从内容到图符的转译
+# ISOTYPE 概念与方法｜从内容到图符的转译
 
 ISOTYPE 全称 International System of Typographic Picture Education，源自 Otto Neurath 及其团队发展的图像统计与视觉教育实践。它是一套组织、转译与传播信息的方法，不是某一种信息图形类型。Marie Neurath 的“转译者”工作说明：先分析内容，再安排可理解的图像关系，而非先选漂亮图标。[雷丁大学馆藏介绍](https://collections.reading.ac.uk/special-collections/collections/marie-neurath-collection/)
 
@@ -26,3 +26,7 @@ ISOTYPE 不等于所有象形图，不等于 ISO 标准图标。单个图标可�
 [02 标签入口](../02-信息图形类型案例/18-ISOTYPE-基础图形设计方法/00-标签说明.md)｜[案例接入](../02-信息图形类型案例/案例接入记录.md)
 
 实践记录目前未填：等待原图后记录语义词汇、重复单位、图符排列与信息转译，不能将上述方法建议写成已验证经验。
+
+## 专题阅读
+
+[历史与文献](./01-历史与文献/README.md)｜[图符语言与视觉编码](./02-图符语言与视觉编码/README.md)｜[案例研究](./03-案例研究/README.md)｜[设计实践](./04-设计实践/README.md)｜[返回专题目录](./README.md)
