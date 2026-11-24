@@ -1,0 +1,8 @@
+*.tmp
+*.log
+Thumbs.db
+.DS_Store
+.env
+.env.*
+tools/MinGit/
+/交付文件/
