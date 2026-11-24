@@ -30,7 +30,18 @@ $rules = @(Get-ChildItem -LiteralPath (Join-Path $rootPath '04-Gestalt视觉组�
 if ($rules.Count -ne 13) { $problems.Add('Gestalt working catalogue must contain 13 entries.') }
 $stages = @(Get-ChildItem -LiteralPath (Join-Path $rootPath '06-XXX主题信息图形设计') -Directory)
 if ($stages.Count -ne 8) { $problems.Add('Theme workspace must contain eight stage directories.') }
-if (-not (Test-Path -LiteralPath (Join-Path $rootPath '02-信息图形类型案例/标签-ISOTYPE/说明.md'))) { $problems.Add('ISOTYPE method tag is missing.') }
-$summary = [ordered]@{ markdown_files=$documents.Count; local_links=$checkedLinks; logic_definitions=$logicDocuments.Count; gestalt_entries=$rules.Count; project_stages=$stages.Count; errors=$problems.Count; details=@($problems.ToArray()) }
+if (-not (Test-Path -LiteralPath (Join-Path $rootPath '02-信息图形类型案例/18-ISOTYPE-基础图形设计方法/00-标签说明.md'))) { $problems.Add('ISOTYPE method tag is missing.') }
+$caseRoot = Join-Path $rootPath '02-信息图形类型案例'
+$tagDirectories = @(Get-ChildItem -LiteralPath $caseRoot -Directory)
+if ($tagDirectories.Count -ne 18) { $problems.Add('02 must contain exactly 18 direct tag directories.') }
+foreach ($number in 1..18) {
+    $prefix = '{0:D2}-' -f $number
+    $matches = @($tagDirectories | Where-Object { $_.Name.StartsWith($prefix) })
+    if ($matches.Count -ne 1) { $problems.Add("Missing or repeated tag number: $prefix"); continue }
+    foreach ($requiredFile in @('00-标签说明.md', '案例/README.md')) {
+        if (-not (Test-Path -LiteralPath (Join-Path $matches[0].FullName $requiredFile))) { $problems.Add("Missing $requiredFile in $($matches[0].Name)") }
+    }
+}
+$summary = [ordered]@{ markdown_files=$documents.Count; local_links=$checkedLinks; logic_definitions=$logicDocuments.Count; case_tag_directories=$tagDirectories.Count; gestalt_entries=$rules.Count; project_stages=$stages.Count; errors=$problems.Count; details=@($problems.ToArray()) }
 $summary | ConvertTo-Json -Depth 4
 if ($problems.Count -gt 0) { exit 1 }
