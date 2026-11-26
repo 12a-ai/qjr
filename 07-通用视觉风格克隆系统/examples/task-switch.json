@@ -1,0 +1,37 @@
+{
+  "mode": "SWITCH",
+  "category": "product",
+  "aspect_ratio": "3:4",
+  "series_anchor": {
+    "zh": "程序测试系列资产；非课程指定主题",
+    "en": "Software test series asset; not the assigned course theme"
+  },
+  "frames": [
+    {
+      "subject": {
+        "zh": "便携收音机",
+        "en": "portable radio"
+      },
+      "action": {
+        "zh": "侧向摆放",
+        "en": "placed sideways"
+      },
+      "environment": {
+        "zh": "置于素色台面",
+        "en": "on a plain surface"
+      },
+      "detail": {
+        "zh": "焦点落在调频旋钮",
+        "en": "focus on the tuning dial"
+      },
+      "text": {
+        "zh": "无文字",
+        "en": "none"
+      },
+      "layout": {
+        "zh": "按风格密度规则布置",
+        "en": "Arrange using the locked density grammar"
+      }
+    }
+  ]
+}

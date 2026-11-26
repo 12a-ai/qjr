@@ -1,0 +1,16 @@
+name: Validate style system
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  validate:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run compiler tests
+        shell: pwsh
+        run: node --test 07-通用视觉风格克隆系统/test/engine.test.mjs
+      - name: Check coursework structure and local links
+        shell: pwsh
+        run: ./tools/check-documents.ps1

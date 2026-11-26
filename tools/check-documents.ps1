@@ -1,7 +1,7 @@
 ﻿param([string]$RepositoryRoot = (Split-Path -Parent $PSScriptRoot))
 $ErrorActionPreference = 'Stop'
 $rootPath = (Resolve-Path -LiteralPath $RepositoryRoot).Path
-$documents = @(Get-ChildItem -LiteralPath $rootPath -Recurse -File -Filter '*.md' | Where-Object { $_.FullName -notmatch '[\\/]\.git[\\/]' })
+$documents = @(Get-ChildItem -LiteralPath $rootPath -Recurse -File -Filter '*.md' | Where-Object { $_.FullName -notmatch '[\\/](\.git|\.work|node_modules|交付文件)[\\/]' })
 $problems = New-Object 'System.Collections.Generic.List[string]'
 $checkedLinks = 0
 foreach ($document in $documents) {

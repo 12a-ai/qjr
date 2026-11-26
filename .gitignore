@@ -6,3 +6,5 @@ Thumbs.db
 .env.*
 tools/MinGit/
 /交付文件/
+/tools/.work/
+**/node_modules/

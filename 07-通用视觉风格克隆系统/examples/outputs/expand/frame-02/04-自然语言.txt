@@ -1,0 +1,73 @@
+zh_template
+[P1 固定风格]
+风格本体与立场: 纸本双色平面图形；以重复秩序承载信息，留白缺口形成视觉例外；属于人为设定，不推断作者。。造型与线质: 均匀细线配合几何色块，转折清楚，闭合轮廓不使用摄影塑形。。边缘控制: 焦点实边，次级边缘略断，背景边缘由纸底吸收。。完成度分配: 最高完成度集中在焦点结构，次要区概括，外围不补满装饰。。媒介与肌理: 细小纸纤维均匀可见，油墨边界略有颗粒，不加入光滑塑料反光。。通用主体融入规则: 将任意新主体的可辨识轮廓转译成相同的线与色块，保留结构语义。
+
+[P2 可替换主题与适配]
+核心主体: {{核心主体}}；状态动作: {{状态动作}}；环境场域: {{环境场域}}；焦点细节: {{焦点细节}}；准确文案: {{准确文案}}；目标版式: {{目标版式}}；画幅比例: {{比例}}；系列内容锚点: 短发、圆领外套、左侧方形胸袋；各帧保持相同轮廓识别点。将新主体固有色归并为共享调色板的底色、结构色和强调色；物体身份通过轮廓表达。。新材质统一以细线、平涂和油墨颗粒表现，结构接缝用线描述，高光以留出纸底表示。。按共享面积区间聚拢新主体，数量增加时先分组；文字与图表的可读性优先，容不下则分版。。焦点分配到神态与姿势，系列身份仅取自独立系列锚点。
+
+[P3 固定光色空间与禁令]
+色彩语法: 底色主导，深色定义轮廓，小面积暖色强调；以底色表现亮部，阴影仍使用深色油墨。。光线逻辑: 平面均匀照明，无写实体积光，不为平涂图形推算物理色温。。构图与空间: 焦点偏心，视线先到孤立色块再到细节；开放区域连贯，跨品类时以相同疏密逻辑重新排版。。尺度关系: 主体形成紧凑图形簇，其余空间为低密度底色，不绑定固定器物或人物数量。。信息密度: 局部细节紧凑，外围稀疏，密度变化服从阅读顺序。。视觉锚点: 暖色小块是入口，结构转折是停留点，背景不争夺焦点。。张力关系: 紧凑深色线簇与连续浅色底形成满空张力，局部暖色打断规则重复。。调色板：dominant #F2E8D5 65%, secondary #253C49 25%, accent #B65C3A 10%。留白面积：50–60%；主体面积：25–35%；色温：未测定 K。。禁止：摄影式高光与景深虚化；与纸本媒介冲突的塑料反射
+
+en_template
+[P1 LOCKED STYLE]
+Identity and stance: Two-ink flat graphics on paper; repetition carries information and an open gap breaks the order; a design choice without attribution.
+Shape and stroke: Uniform fine lines with geometric color planes, clear turns and closed contours without photographic modeling.
+Edge hierarchy: Crisp focal edges, slightly broken secondary edges and peripheral edges absorbed by the paper base.
+Finish allocation: Concentrate finish on focal structure, simplify secondary areas and leave peripheral decoration sparse.
+Medium and texture: Fine paper fibers remain visible with slight grain at ink boundaries; avoid smooth plastic reflections.
+Subject integration: Translate any new subject silhouette into the same line and plane grammar while preserving structural meaning.
+
+[P2 REPLACEABLE THEME AND ADAPTATION]
+subject: {{SUBJECT}}; action: {{ACTION}}; environment: {{ENVIRONMENT}}; detail: {{DETAIL}}; text: {{TEXT}}; layout: {{LAYOUT}}; aspect_ratio: {{ASPECT_RATIO}}; series_anchor: Short hair, a round-collar jacket and a square pocket on the left; preserve these silhouette identifiers in every frame
+Remap native subject colors into the shared base, structure and accent palette; preserve identity through silhouette.
+Express new materials using fine lines, flat ink and grain; describe seams with lines and highlights with reserved paper.
+Cluster new subjects within the shared area ranges and group growing sets; preserve text and chart readability, splitting panels when needed.
+Prioritize expression and posture; take identity only from the independent series anchor.
+
+[P3 LOCKED COLOR SPACE AND GUARDS]
+Color grammar: A dominant paper base, dark contours and a scarce warm accent; highlights reserve the base and shadows use the dark ink.
+Lighting logic: Uniform flat illumination, without realistic volumetric light; do not infer physical color temperature for flat graphics.
+Composition and space: An off-center focus leads from an isolated color shape into detail; keep open areas continuous and recompose across domains using the same density logic.
+Scale relations: The subject forms a compact cluster surrounded by a low-density base, without fixing object or character counts.
+Information density: Cluster details locally and keep the periphery sparse; density follows reading order.
+Visual anchors: A small warm shape provides the entry point, structural turns sustain attention and the background remains subordinate.
+Visual tension: Compact dark line clusters contrast with continuous light paper; a small warm accent disrupts regular repetition.
+Palette: dominant #F2E8D5 65%, secondary #253C49 25%, accent #B65C3A 10%. Negative space: 50–60%; subject area: 25–35%; temperature: unmeasured K.
+Avoid: photographic highlights and optical bokeh; plastic reflections that conflict with the paper medium
+
+zh_ready
+[P1 固定风格]
+风格本体与立场: 纸本双色平面图形；以重复秩序承载信息，留白缺口形成视觉例外；属于人为设定，不推断作者。。造型与线质: 均匀细线配合几何色块，转折清楚，闭合轮廓不使用摄影塑形。。边缘控制: 焦点实边，次级边缘略断，背景边缘由纸底吸收。。完成度分配: 最高完成度集中在焦点结构，次要区概括，外围不补满装饰。。媒介与肌理: 细小纸纤维均匀可见，油墨边界略有颗粒，不加入光滑塑料反光。。通用主体融入规则: 将任意新主体的可辨识轮廓转译成相同的线与色块，保留结构语义。
+
+[P2 可替换主题与适配]
+核心主体: 短发旅行角色；状态动作: 停步观察；环境场域: 置于简化站台；焦点细节: 焦点落在转身轮廓；准确文案: 无文字；目标版式: 按风格密度规则布置；画幅比例: 3:4；系列内容锚点: 短发、圆领外套、左侧方形胸袋；各帧保持相同轮廓识别点。将新主体固有色归并为共享调色板的底色、结构色和强调色；物体身份通过轮廓表达。。新材质统一以细线、平涂和油墨颗粒表现，结构接缝用线描述，高光以留出纸底表示。。按共享面积区间聚拢新主体，数量增加时先分组；文字与图表的可读性优先，容不下则分版。。焦点分配到神态与姿势，系列身份仅取自独立系列锚点。
+
+[P3 固定光色空间与禁令]
+色彩语法: 底色主导，深色定义轮廓，小面积暖色强调；以底色表现亮部，阴影仍使用深色油墨。。光线逻辑: 平面均匀照明，无写实体积光，不为平涂图形推算物理色温。。构图与空间: 焦点偏心，视线先到孤立色块再到细节；开放区域连贯，跨品类时以相同疏密逻辑重新排版。。尺度关系: 主体形成紧凑图形簇，其余空间为低密度底色，不绑定固定器物或人物数量。。信息密度: 局部细节紧凑，外围稀疏，密度变化服从阅读顺序。。视觉锚点: 暖色小块是入口，结构转折是停留点，背景不争夺焦点。。张力关系: 紧凑深色线簇与连续浅色底形成满空张力，局部暖色打断规则重复。。调色板：dominant #F2E8D5 65%, secondary #253C49 25%, accent #B65C3A 10%。留白面积：50–60%；主体面积：25–35%；色温：未测定 K。。禁止：摄影式高光与景深虚化；与纸本媒介冲突的塑料反射
+
+en_ready
+[P1 LOCKED STYLE]
+Identity and stance: Two-ink flat graphics on paper; repetition carries information and an open gap breaks the order; a design choice without attribution.
+Shape and stroke: Uniform fine lines with geometric color planes, clear turns and closed contours without photographic modeling.
+Edge hierarchy: Crisp focal edges, slightly broken secondary edges and peripheral edges absorbed by the paper base.
+Finish allocation: Concentrate finish on focal structure, simplify secondary areas and leave peripheral decoration sparse.
+Medium and texture: Fine paper fibers remain visible with slight grain at ink boundaries; avoid smooth plastic reflections.
+Subject integration: Translate any new subject silhouette into the same line and plane grammar while preserving structural meaning.
+
+[P2 REPLACEABLE THEME AND ADAPTATION]
+subject: a short-haired traveler; action: pausing to observe; environment: on a simplified platform; detail: focus on the turning silhouette; text: none; layout: Arrange using the locked density grammar; aspect_ratio: 3:4; series_anchor: Short hair, a round-collar jacket and a square pocket on the left; preserve these silhouette identifiers in every frame
+Remap native subject colors into the shared base, structure and accent palette; preserve identity through silhouette.
+Express new materials using fine lines, flat ink and grain; describe seams with lines and highlights with reserved paper.
+Cluster new subjects within the shared area ranges and group growing sets; preserve text and chart readability, splitting panels when needed.
+Prioritize expression and posture; take identity only from the independent series anchor.
+
+[P3 LOCKED COLOR SPACE AND GUARDS]
+Color grammar: A dominant paper base, dark contours and a scarce warm accent; highlights reserve the base and shadows use the dark ink.
+Lighting logic: Uniform flat illumination, without realistic volumetric light; do not infer physical color temperature for flat graphics.
+Composition and space: An off-center focus leads from an isolated color shape into detail; keep open areas continuous and recompose across domains using the same density logic.
+Scale relations: The subject forms a compact cluster surrounded by a low-density base, without fixing object or character counts.
+Information density: Cluster details locally and keep the periphery sparse; density follows reading order.
+Visual anchors: A small warm shape provides the entry point, structural turns sustain attention and the background remains subordinate.
+Visual tension: Compact dark line clusters contrast with continuous light paper; a small warm accent disrupts regular repetition.
+Palette: dominant #F2E8D5 65%, secondary #253C49 25%, accent #B65C3A 10%. Negative space: 50–60%; subject area: 25–35%; temperature: unmeasured K.
+Avoid: photographic highlights and optical bokeh; plastic reflections that conflict with the paper medium

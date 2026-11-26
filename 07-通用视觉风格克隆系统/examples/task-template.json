@@ -1,0 +1,37 @@
+{
+  "mode": "TEMPLATE",
+  "category": "product",
+  "aspect_ratio": "3:4",
+  "series_anchor": {
+    "zh": "程序测试系列资产；非课程指定主题",
+    "en": "Software test series asset; not the assigned course theme"
+  },
+  "frames": [
+    {
+      "subject": {
+        "zh": "{{subject}}",
+        "en": "{{subject}}"
+      },
+      "action": {
+        "zh": "{{action}}",
+        "en": "{{action}}"
+      },
+      "environment": {
+        "zh": "{{environment}}",
+        "en": "{{environment}}"
+      },
+      "detail": {
+        "zh": "{{detail}}",
+        "en": "{{detail}}"
+      },
+      "text": {
+        "zh": "{{text}}",
+        "en": "{{text}}"
+      },
+      "layout": {
+        "zh": "{{layout}}",
+        "en": "{{layout}}"
+      }
+    }
+  ]
+}

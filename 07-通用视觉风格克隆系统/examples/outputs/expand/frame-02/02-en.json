@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "id": "SC-FIXTURE-01",
+    "name": "Two-ink paper software fixture",
+    "status": "fixture",
+    "mode": "EXPAND",
+    "style_hash": "a7eaa5a3f691258886365946148439d2797b7e7a35de95223f33e2743628a97a",
+    "series_hash": "208cef5ce6564fc313101384e775e94ab9bfe8b1cae0325f684f041b6511a2f7",
+    "excluded_source_elements": [
+      "source-test-old-boat"
+    ]
+  },
+  "style_dna_locked": {
+    "rules": {
+      "A1": {
+        "state": "active",
+        "kind": "design_choice",
+        "confidence": 1,
+        "source_ids": [
+          "FIXTURE"
+        ],
+        "description": "Two-ink flat graphics on paper; repetition carries information and an open gap breaks the order; a design choice without attribution."
+      },
+      "B1": {
+        "state": "active",
+        "kind": "design_choice",
+        "confidence": 1,
+        "source_ids": [
+          "FIXTURE"
+        ],
+        "description": "A dominant paper base, dark contours and a scarce warm accent; highlights reserve the base and shadows use the dark ink."
+      },
+      "B2": {
+        "state": "active",
+        "kind": "design_choice",
+        "confidence": 1,
+        "source_ids": [
+          "FIXTURE"
+        ],
+        "description": "Uniform flat illumination, without realistic volumetric light; do not infer physical color temperature for flat graphics."
+      },
+      "B3": {
+        "state": "active",
+        "kind": "design_choice",
+        "confidence": 1,
+        "source_ids": [
+          "FIXTURE"
+        ],
+        "description": "An off-center focus leads from an isolated color shape into detail; keep open areas continuous and recompose across domains using the same density logic."
+      },
+      "B4": {
+        "state": "active",
+        "kind": "design_choice",
+        "confidence": 1,
+        "source_ids": [
+          "FIXTURE"
+        ],
+        "description": "The subject forms a compact cluster surrounded by a low-density base, without fixing object or character counts."
+      },
+      "C1": {
+        "state": "active",
+        "kind": "design_choice",
+        "confidence": 1,
+        "source_ids": [
+          "FIXTURE"
+        ],
+        "description": "Uniform fine lines with geometric color planes, clear turns and closed contours without photographic modeling."
+      },
+      "C2": {
+        "state": "active",
+        "kind": "design_choice",
+        "confidence": 1,
+        "source_ids": [
+          "FIXTURE"
+        ],
+        "description": "Crisp focal edges, slightly broken secondary edges and peripheral edges absorbed by the paper base."
+      },
+      "C3": {
+        "state": "active",
+        "kind": "design_choice",
+        "confidence": 1,
+        "source_ids": [
+          "FIXTURE"
+        ],
+        "description": "Concentrate finish on focal structure, simplify secondary areas and leave peripheral decoration sparse."
+      },
+      "C4": {
+        "state": "active",
+        "kind": "design_choice",
+        "confidence": 1,
+        "source_ids": [
+          "FIXTURE"
+        ],
+        "description": "Fine paper fibers remain visible with slight grain at ink boundaries; avoid smooth plastic reflections."
+      },
+      "D1": {
+        "state": "active",
+        "kind": "design_choice",
+        "confidence": 1,
+        "source_ids": [
+          "FIXTURE"
+        ],
+        "description": "Translate any new subject silhouette into the same line and plane grammar while preserving structural meaning."
+      },
+      "E1": {
+        "state": "active",
+        "kind": "design_choice",
+        "confidence": 1,
+        "source_ids": [
+          "FIXTURE"
+        ],
+        "description": "Cluster details locally and keep the periphery sparse; density follows reading order."
+      },
+      "E2": {
+        "state": "active",
+        "kind": "design_choice",
+        "confidence": 1,
+        "source_ids": [
+          "FIXTURE"
+        ],
+        "description": "A small warm shape provides the entry point, structural turns sustain attention and the background remains subordinate."
+      },
+      "E3": {
+        "state": "active",
+        "kind": "design_choice",
+        "confidence": 1,
+        "source_ids": [
+          "FIXTURE"
+        ],
+        "description": "Compact dark line clusters contrast with continuous light paper; a small warm accent disrupts regular repetition."
+      }
+    },
+    "parameters": {
+      "palette": [
+        {
+          "role": "dominant",
+          "hex": "#F2E8D5",
+          "ratio": 0.65
+        },
+        {
+          "role": "secondary",
+          "hex": "#253C49",
+          "ratio": 0.25
+        },
+        {
+          "role": "accent",
+          "hex": "#B65C3A",
+          "ratio": 0.1
+        }
+      ],
+      "negative_space": [
+        0.5,
+        0.6
+      ],
+      "subject_area": [
+        0.25,
+        0.35
+      ],
+      "light_temperature_k": null
+    },
+    "anchors": [
+      "C1",
+      "B1",
+      "B2",
+      "B3",
+      "C4"
+    ],
+    "negative": [
+      "photographic highlights and optical bokeh",
+      "plastic reflections that conflict with the paper medium"
+    ]
+  },
+  "adaptation_bridge": {
+    "category": "character",
+    "color": "Remap native subject colors into the shared base, structure and accent palette; preserve identity through silhouette.",
+    "material": "Express new materials using fine lines, flat ink and grain; describe seams with lines and highlights with reserved paper.",
+    "space": "Cluster new subjects within the shared area ranges and group growing sets; preserve text and chart readability, splitting panels when needed.",
+    "focus": "Prioritize expression and posture; take identity only from the independent series anchor."
+  },
+  "theme_slot": {
+    "subject": "a short-haired traveler",
+    "action": "pausing to observe",
+    "environment": "on a simplified platform",
+    "detail": "focus on the turning silhouette",
+    "text": "none",
+    "layout": "Arrange using the locked density grammar",
+    "aspect_ratio": "3:4",
+    "series_anchor": "Short hair, a round-collar jacket and a square pocket on the left; preserve these silhouette identifiers in every frame"
+  }
+}

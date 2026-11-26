@@ -1,0 +1,89 @@
+{
+  "mode": "EXPAND",
+  "category": "character",
+  "aspect_ratio": "3:4",
+  "series_anchor": {
+    "zh": "短发、圆领外套、左侧方形胸袋；各帧保持相同轮廓识别点",
+    "en": "Short hair, a round-collar jacket and a square pocket on the left; preserve these silhouette identifiers in every frame"
+  },
+  "frames": [
+    {
+      "subject": {
+        "zh": "短发旅行角色",
+        "en": "a short-haired traveler"
+      },
+      "action": {
+        "zh": "缓步行走",
+        "en": "walking slowly"
+      },
+      "environment": {
+        "zh": "置于简化路面",
+        "en": "on a simplified path"
+      },
+      "detail": {
+        "zh": "焦点落在手部姿态",
+        "en": "focus on hand posture"
+      },
+      "text": {
+        "zh": "无文字",
+        "en": "none"
+      },
+      "layout": {
+        "zh": "按风格密度规则布置",
+        "en": "Arrange using the locked density grammar"
+      }
+    },
+    {
+      "subject": {
+        "zh": "短发旅行角色",
+        "en": "a short-haired traveler"
+      },
+      "action": {
+        "zh": "停步观察",
+        "en": "pausing to observe"
+      },
+      "environment": {
+        "zh": "置于简化站台",
+        "en": "on a simplified platform"
+      },
+      "detail": {
+        "zh": "焦点落在转身轮廓",
+        "en": "focus on the turning silhouette"
+      },
+      "text": {
+        "zh": "无文字",
+        "en": "none"
+      },
+      "layout": {
+        "zh": "按风格密度规则布置",
+        "en": "Arrange using the locked density grammar"
+      }
+    },
+    {
+      "subject": {
+        "zh": "短发旅行角色",
+        "en": "a short-haired traveler"
+      },
+      "action": {
+        "zh": "回身告别",
+        "en": "turning to say farewell"
+      },
+      "environment": {
+        "zh": "置于简化入口",
+        "en": "at a simplified entrance"
+      },
+      "detail": {
+        "zh": "焦点落在挥手动作",
+        "en": "focus on the waving gesture"
+      },
+      "text": {
+        "zh": "无文字",
+        "en": "none"
+      },
+      "layout": {
+        "zh": "按风格密度规则布置",
+        "en": "Arrange using the locked density grammar"
+      }
+    }
+  ]
+}

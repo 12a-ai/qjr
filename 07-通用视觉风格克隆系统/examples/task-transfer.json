@@ -1,0 +1,37 @@
+{
+  "mode": "TRANSFER",
+  "category": "typography",
+  "aspect_ratio": "3:4",
+  "series_anchor": {
+    "zh": "程序测试系列资产；非课程指定主题",
+    "en": "Software test series asset; not the assigned course theme"
+  },
+  "frames": [
+    {
+      "subject": {
+        "zh": "主题汉字山",
+        "en": "the Chinese character 山"
+      },
+      "action": {
+        "zh": "结构稳定笔画展开",
+        "en": "stable expanded strokes"
+      },
+      "environment": {
+        "zh": "置于纸本底色",
+        "en": "on a paper-colored base"
+      },
+      "detail": {
+        "zh": "焦点落在字怀留白",
+        "en": "focus on the open counters"
+      },
+      "text": {
+        "zh": "山",
+        "en": "山"
+      },
+      "layout": {
+        "zh": "按风格密度规则布置",
+        "en": "Arrange using the locked density grammar"
+      }
+    }
+  ]
+}
